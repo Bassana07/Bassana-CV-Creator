@@ -1,0 +1,69 @@
+  .circle-container {
+    width: 70%;
+    height: 20%;
+    margin-top: 20px;
+    margin-left: 34px;
+    background-color: white;
+    border-radius: 50%; /* Rend le conteneur circulaire */
+    overflow: hidden; /* Masque le contenu qui déborde du cercle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Ajoutez des styles pour l'image si vous en avez une */
+  .circle-container img {
+    max-width: 170%;
+    max-height: 140%;
+    border-radius: 50%; /* Rend l'image circulaire */
+  }
+
+  .first {
+    margin-left: 15px;
+  }
+
+  .autres {
+    margin-left: 50px;
+  }
+
+  .fas, .fab {
+    margin-left: 5%;
+  }
+
+  h3 {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  .level {
+    margin-bottom: 10px;
+  }
+
+  .langage {
+    margin-bottom: 10px;
+    margin-left: 7px;
+  }
+
+  .speak {
+    display: flex;
+  }
+
+  .l_first {
+    margin-bottom: 10px;
+  }
+
+  .l_second {
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+
+  ul {
+    list-style: none;
+    margin-left: -20px;
+  }
+
+.lien {
+  color: blue;
+}
+
+  

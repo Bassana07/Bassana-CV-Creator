@@ -1,0 +1,134 @@
+.academie {
+  margin-bottom: 75px;
+}
+
+.extra-academie {
+  margin-bottom: 75px;
+}
+
+.logiciel {
+  margin-left: 35px;
+}
+
+.langage {
+  margin-bottom: 10px;
+}
+
+.level {
+  margin-bottom: 10px;
+}
+
+.competence {
+  margin-bottom: 25px;
+}
+
+.width-bar {
+  border-bottom: 1px solid #615d5d;
+}
+
+.title-illustration {
+display: flex;
+}
+
+.title {
+margin-left: 15px;
+margin-top: 10px;
+}
+
+.height-bar-big {
+border-left: 2px solid #615d5d;
+height: 90px;
+}
+
+.height-bar-big-semi-extra {
+border-left: 2px solid #615d5d;
+height: 130px;
+display: flex;
+
+}
+
+.height-bar-big-extra {
+border-left: 2px solid #615d5d;
+height: 355px;
+}
+
+.cadre {
+display: flex;
+margin-bottom: 30px;
+}
+
+.entete {
+margin-left: 15px;
+margin-top: -6px;
+}
+
+.filiere {
+margin-left: 23px;
+}
+
+.indication {
+margin-left: 97px;
+}
+
+.localisation {
+margin-left: 97px;
+margin-bottom: 10px;
+color: rgb(15, 174, 174)
+}
+
+
+.height-bar-small {
+border-left: 2px solid #615d5d;
+height: 20px;
+}
+
+.mini-circle {
+  width: 5px;
+  height: 5px;
+  margin-left: -5.1px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50%; /* Rend le conteneur circulaire */
+  overflow: hidden; /* Masque le contenu qui déborde du cercle */
+
+}
+
+.a-qualite {
+margin-left: 15px;
+display: flex;
+width: 30%;
+margin-right: 30px;
+}
+
+.illustration {
+margin-left: 2px;
+}
+
+.check {
+color: rgb(7, 175, 133);
+}
+
+.no-check {
+color: rgb(204, 232, 219);
+}
+
+.circle-container-icone {
+margin-left: -19px;
+width: 35px;
+height: 35px;
+background-color: #ffffff; /* Couleur de fond du cercle */
+border: 2px  solid black;
+border-radius: 50%; /* Rend le conteneur circulaire */
+overflow: hidden; /* Masque le contenu qui déborde du cercle */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* Ajoutez des styles pour l'image si vous en avez une */
+.circle-container-icone img {
+max-width: 100%;
+max-height: 100%;
+border-radius: 50%; /* Rend l'image circulaire */
+}
+
