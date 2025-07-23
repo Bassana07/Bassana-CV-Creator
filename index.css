@@ -1,41 +1,54 @@
-
 body {
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #f0f0f0; /* Couleur de fond du corps */
+  background-color: #f0f0f0;
+  /* Couleur de fond du corps */
 }
 
 .left-start {
-  flex: 0 1 40%; /* La classe left prend 20% de l'espace disponible */
+  flex: 0 1 40%;
+  /* La classe left prend 20% de l'espace disponible */
   width: 40%;
   height: 104%;
   margin-left: 15px;
 }
 
 .right-start {
-  flex: 0 1 100%; /* La classe right prend 60% de l'espace disponible */
+  flex: 0 1 100%;
+  /* La classe right prend 60% de l'espace disponible */
   width: 110%;
   height: 104%;
   margin-left: 18px;
 
 }
 
-.corps_cv {
+.corps_cv,
+.footer {
   width: 794px;
-  height: 1123px;
-  background-color: #ffffff; /* Couleur de fond du bloc */
-  border: 2px solid #ffffff; /* Bordure du bloc */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre portée */
-  padding: 20px; /* Ajout de marge intérieure pour l'espace interne du bloc */
-  display: flex; /* Utilisation de flexbox pour aligner les enfants horizontalement */
+  height: 1080px;
+  background-color: #ffffff;
+  /* Couleur de fond du bloc */
+  border: 2px solid #ffffff;
+  /* Bordure du bloc */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Ombre portée */
+  padding: 20px;
+  /* Ajout de marge intérieure pour l'espace interne du bloc */
+  display: flex;
+  /* Utilisation de flexbox pour aligner les enfants horizontalement */
+}
+
+.footer {
+  height: 43px;
 }
 
 .left {
-  flex: 0 1 40%; /* La classe left prend 20% de l'espace disponible */
+  flex: 0 1 40%;
+  /* La classe left prend 20% de l'espace disponible */
   width: 40%;
-  height: 104%;
+  height: 106%;
   margin-top: -22px;
   margin-bottom: -22px;
   margin-left: -22px;
@@ -45,13 +58,26 @@ body {
 }
 
 .right {
-  flex: 0 1 60%; /* La classe right prend 80% de l'espace disponible */
+  flex: 0 1 60%;
+  /* La classe right prend 80% de l'espace disponible */
   width: 110%;
   height: 104%;
   margin-top: -22px;
   margin-bottom: -82px;
   margin-left: 30px;
   padding-right: 20px;
+}
+
+.sign {
+  margin-left: 240px;
+  border-bottom: black;
+  text-decoration: underline;
+}
+
+.img-sign img {
+  width: 300px;
+  height: 80px;
+  margin-top: -30px;
 }
 
 /* Styles spécifiques à l'impression */
@@ -62,33 +88,35 @@ body {
   }
 
   .corps_cv {
-    width: 794px;
-    height: 1123px;
     box-shadow: none;
     border: none;
     padding: 0;
     display: flex;
-    page-break-before: always; /* Ajoute un saut de page avant l'élément à imprimer */
+    page-break-before: always;
+    /* Ajoute un saut de page avant l'élément à imprimer */
   }
 
   .left {
     margin-left: -9px;
-    margin-top: -22px;
+    margin-top: -12px;
     margin-bottom: -82px;
 
   }
 
-  @page {
-    size: 794px 1123px; /* Définir la taille de la page sur automatique */
-    margin: 0px; /* Supprimer les marges par défaut de l'impression */
-    margin-bottom: -100px;
-    
+  .right {
+    margin-top: 0px;
   }
 
-  
+  @page {
+    size: 794px 1123px;
+    /* Définir la taille de la page sur automatique */
+    margin: 0px;
+    /* Supprimer les marges par défaut de l'impression */
+    margin-bottom: -100px;
+
+  }
+
+
 
   /* Ajoutez d'autres styles spécifiques à l'impression si nécessaire */
 }
-
-
-  

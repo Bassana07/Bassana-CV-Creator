@@ -1,3 +1,8 @@
+h1 {
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+
 .academie {
   margin-bottom: 75px;
 }
@@ -8,6 +13,10 @@
 
 .logiciel {
   margin-left: 35px;
+}
+
+.logiciel-1 {
+  margin-left: 23px;
 }
 
 .langage {
@@ -42,14 +51,14 @@ height: 90px;
 
 .height-bar-big-semi-extra {
 border-left: 2px solid #615d5d;
-height: 130px;
+height: 153px;
 display: flex;
 
 }
 
 .height-bar-big-extra {
 border-left: 2px solid #615d5d;
-height: 355px;
+height: 625px;
 }
 
 .cadre {
